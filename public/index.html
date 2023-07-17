@@ -3,41 +3,150 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <title>VikusViewer</title>
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="pinterest" content="nohover" />
+    <base target="_blank" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/infobar.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/pixi.min.js"></script>
+    <script src="js/pixi-packer-parser.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/tags.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/modernizr-custom.js"></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="hiddenreload"></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div class="browserInfo">
+      <p>
+        This visualization is not optimized for mobile phones and needs WebGL
+        enabled.
+      </p>
+      <p>Please come back on a Computer.</p>
+      <span>💡</span>
+    </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="search"></div>
+
+    <div class="page">
+      <div class="detailLoader"></div>
+      <div class="sideLoader"></div>
+
+      <div class="sidebar detail hide">
+        <div class="slidebutton"></div>
+
+        <div class="outer">
+          <div id="detail" class="inner">
+            <div class="entries" v-if="item">
+              <div v-if="item._imagenum > 1" class="entry wide pages">
+                <div class="label">Seite</div>
+                <div class="content">
+                  <span
+                    v-for="i in parseInt(item._imagenum)"
+                    v-bind:key="i"
+                    v-on:click="displayPage(i-1)"
+                    v-bind:class="{ active: i === page+1, keyword: true }"
+                  >
+                    {{ i }}
+                  </span>
+                </div>
+              </div>
+              <div
+                v-for="entry in structure"
+                v-bind:key="entry.name"
+                v-bind:class="entry.display"
+                class="entry"
+                v-if="hasData(entry)"
+              >
+                <div v-if="entry.name" class="label">{{ entry.name }}</div>
+                <div class="content">
+                  <span v-if="entry.type === 'keywords'">
+                    <span
+                      v-for="keyword in item[entry.source]"
+                      v-bind:key="keyword"
+                      class="keyword"
+                    >
+                      {{ keyword }}
+                    </span>
+                  </span>
+                  <span v-else-if="entry.type === 'link'">
+                    <a :href="item[entry.source]" target="_blank">Link</a>
+                  </span>
+                  <span v-else-if="entry.type === 'markdown'">
+                    <span v-html="getContent(entry)"></span>
+                  </span>
+                  <span v-else-if="entry.type === 'function'">
+                    <span v-html="getContent(entry)"></span>
+                  </span>
+                  <span v-else> {{ getContent(entry) }} </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navi"></div>
+
+      <div class="infobar sneak">
+        <div class="infobutton">
+          <svg width="16px" height="24px" viewBox="0 0 16 24">
+            <path
+              d="M13.6824546,2 L3.7109392,11.9715154 L13.7394238,22"
+              stroke="#FFF"
+              stroke-width="5"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="outer">
+          <div class="inner">
+            <div id="infobar" class="infosidebar">
+              <span v-html="marked(info)"></span>
+              <div class="credit">
+                Powered by
+                <a href="https://vikusviewer.fh-potsdam.de/" target="_blank"
+                  >VIKUS Viewer</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="searchbar">
+        <input type="input" name="suche" />
+        <div class="button">
+          <div class="openbutton"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/sidebars.js"></script>
+    <script src="js/viz.js"></script>
   </body>
 </html>
