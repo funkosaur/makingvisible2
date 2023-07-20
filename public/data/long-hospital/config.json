@@ -1,0 +1,143 @@
+{
+    "project": {
+        "name": "long-hospital",
+        "quality": 1
+    },
+    "loader": {
+        "info": "info.md",
+        "items": "metadata.csv",
+        "layouts": [
+            {
+                "title": "similarity",
+                "scale": 0.5,
+                "url": "umap.csv"
+            }
+        ],
+        "textures": {
+            "medium": {
+                "size": 224,
+                "url": "images/sprites/spritesheet.json"
+            },
+            "detail": {
+                "size": 1025,
+                "csv": "image"
+            },
+            "big": {
+                "size": 4096,
+                "csv": "largeImage"
+            }
+        }
+    },
+    "style": {
+        "fontColor": "#f7efcd",
+        "fontColorActive": "#1c1e1f",
+        "fontBackground": "#f7efcd",
+        "textShadow": "1px 1px 0px #00000085",
+        "canvasBackground": "#1c1e1f",
+        "timelineBackground": "#f7efcd",
+        "timelineFontColor": "#000",
+        "backgroundHeader": "#035151",
+        "fontColorHeader": "#fffefa",
+        "detailBackground": "#fffefa",
+        "infoBackground": "#353535",
+        "infoFontColor": "#f7efcd",
+        "searchbarBackground": "#353535"
+    },
+    "projection": {
+        "columns": 23
+    },
+    "detail": {
+        "structure": {
+            "id": {
+                "name": "id",
+                "source": "id",
+                "display": "wide",
+                "type": "text"
+            },
+            "thumbnail": {
+                "name": "thumbnail",
+                "source": "thumbnail",
+                "display": "wide",
+                "type": "text"
+            },
+            "image": {
+                "name": "image",
+                "source": "image",
+                "display": "wide",
+                "type": "text"
+            },
+            "largeImage": {
+                "name": "largeImage",
+                "source": "largeImage",
+                "display": "wide",
+                "type": "text"
+            },
+            "_label": {
+                "name": "_label",
+                "source": "_label",
+                "display": "wide",
+                "type": "text"
+            },
+            "_iiif": {
+                "name": "_iiif",
+                "source": "_iiif",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Description": {
+                "name": "_Description",
+                "source": "_Description",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Publication/creation": {
+                "name": "_Publication/creation",
+                "source": "_Publication/creation",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Physical description": {
+                "name": "_Physical description",
+                "source": "_Physical description",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Contributors": {
+                "name": "_Contributors",
+                "source": "_Contributors",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Type/technique": {
+                "name": "_Type/technique",
+                "source": "_Type/technique",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Subjects": {
+                "name": "_Subjects",
+                "source": "_Subjects",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Attribution and usage": {
+                "name": "_Attribution and usage",
+                "source": "_Attribution and usage",
+                "display": "wide",
+                "type": "text"
+            },
+            "keywords": {
+                "name": "keywords",
+                "source": "keywords",
+                "display": "wide",
+                "type": "text"
+            },
+            "_Notes": {
+                "name": "_Notes",
+                "source": "_Notes",
+                "display": "wide",
+                "type": "text"
+            }
+        }
+    }
+}

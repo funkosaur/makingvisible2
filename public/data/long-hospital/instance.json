@@ -1,0 +1,111 @@
+{
+    "id": "long-hospital",
+    "label": "long-hospital",
+    "iiif_url": "https://iiif.wellcomecollection.org/presentation/collections/genres/Stickers",
+    "path": "../data/long-hospital",
+    "spritesheetPath": "/data/long-hospital/images/sprites",
+    "created": 1689791179,
+    "updated": 1689791323,
+    "collection": true,
+    "images": true,
+    "numImages": 178,
+    "spritesheets": true,
+    "features": true,
+    "similarity": true,
+    "metadata": true,
+    "metadataFile": "../data/long-hospital/metadata.csv",
+    "metadataStructure": {
+        "id": {
+            "name": "id",
+            "source": "id",
+            "display": "wide",
+            "type": "text"
+        },
+        "thumbnail": {
+            "name": "thumbnail",
+            "source": "thumbnail",
+            "display": "wide",
+            "type": "text"
+        },
+        "image": {
+            "name": "image",
+            "source": "image",
+            "display": "wide",
+            "type": "text"
+        },
+        "largeImage": {
+            "name": "largeImage",
+            "source": "largeImage",
+            "display": "wide",
+            "type": "text"
+        },
+        "_label": {
+            "name": "_label",
+            "source": "_label",
+            "display": "wide",
+            "type": "text"
+        },
+        "_iiif": {
+            "name": "_iiif",
+            "source": "_iiif",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Description": {
+            "name": "_Description",
+            "source": "_Description",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Publication/creation": {
+            "name": "_Publication/creation",
+            "source": "_Publication/creation",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Physical description": {
+            "name": "_Physical description",
+            "source": "_Physical description",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Contributors": {
+            "name": "_Contributors",
+            "source": "_Contributors",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Type/technique": {
+            "name": "_Type/technique",
+            "source": "_Type/technique",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Subjects": {
+            "name": "_Subjects",
+            "source": "_Subjects",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Attribution and usage": {
+            "name": "_Attribution and usage",
+            "source": "_Attribution and usage",
+            "display": "wide",
+            "type": "text"
+        },
+        "keywords": {
+            "name": "keywords",
+            "source": "keywords",
+            "display": "wide",
+            "type": "text"
+        },
+        "_Notes": {
+            "name": "_Notes",
+            "source": "_Notes",
+            "display": "wide",
+            "type": "text"
+        }
+    },
+    "zip": true,
+    "zipFile": "../data/long-hospital/project.zip"
+}
