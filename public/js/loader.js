@@ -13,7 +13,7 @@ function Loader(url) {
   var container, indicator;
 
   var loader = {};
-  var finished = function () { };
+  var finished = function () {};
 
   loader.finished = function (value) {
     if (!arguments.length) return finished;
@@ -26,7 +26,6 @@ function Loader(url) {
     progress = parseInt((loaded / total) * 100);
 
     indicator.style("height", progress + "%");
-
   };
   loader.load = function () {
     container = d3.select(".detailLoader");
@@ -35,16 +34,24 @@ function Loader(url) {
     container.append("div").classed("label", true).text("loading");
 
     indicator = container.append("div").classed("indicator", true);
-
+    console.log(url);
+    //try /data/long-hospital/metadata.csv instead of url to fix error
+    // d3.csv("/data/long-hospital/metadata.csv")
     d3.csv(url)
       .on("progress", loader.progress)
       .on("load", function (data) {
+        console.log(url); //.remove();
+      
         finished(data);
-        container.selectAll("div"); //.remove();
+        console.log(data);
+        container.selectAll("div");
+        console.log(url); //.remove();
       })
+
       .on("error", function (err) {
-        console.warn("error loading", url)
-        finished([])
+        console.warn("error loading", url);
+        console.log(url);
+        finished([]);
       })
       .get();
   };
@@ -70,7 +77,7 @@ function LoaderSprites() {
   indicator = container.append("div").classed("indicator", true);
 
   var loader = {};
-  var progress = function () { };
+  var progress = function () {};
 
   var pixiloader = new PIXI.Loader();
   pixiloader.use(pixiPackerParser(PIXI)).on("progress", function (p, r) {
@@ -109,7 +116,7 @@ function LoaderSingleImage() {
   indicator = container.append("div").classed("indicator", true);
 
   var loader = {};
-  var finished = function () { };
+  var finished = function () {};
 
   var pixiloader = new PIXI.loaders.Loader();
   pixiloader.on("progress", function (p, r) {
@@ -141,7 +148,7 @@ function LoaderBlob(url) {
   var container, indicator;
 
   var loader = {};
-  var finished = function () { };
+  var finished = function () {};
 
   loader.finished = function (value) {
     if (!arguments.length) return finished;
@@ -155,7 +162,6 @@ function LoaderBlob(url) {
     progress = parseInt((loaded / total) * 100);
 
     indicator.style("height", progress + "%");
-
   };
 
   loader.load = function () {
@@ -198,7 +204,7 @@ function LoaderMultiple(url) {
   var container, indicator, label;
 
   var loader = {};
-  var finished = function () { };
+  var finished = function () {};
 
   loader.finished = function (value) {
     if (!arguments.length) return finished;
@@ -217,11 +223,9 @@ function LoaderMultiple(url) {
   };
 
   loader.load = function (url) {
-
     d3.csv(url)
       .on("progress", loader.progress)
       .on("load", function (data) {
-
         finished(data);
 
         itemsLoaded += data.length;

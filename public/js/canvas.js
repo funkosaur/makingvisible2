@@ -138,7 +138,6 @@ function Canvas() {
 
   canvas.makeScales = function () {
     x.rangeBands([margin.left, width + margin.left], 0.2);
-
     rangeBand = x.rangeBand();
     rangeBandImage = x.rangeBand() / collumns;
 
@@ -699,6 +698,7 @@ function Canvas() {
     sleep = false;
     var scaleFactor = state.mode == "time" ? 0.9 : tsneScale[state.mode] || 0.5;
     data.forEach(function (d) {
+      // console.log(d);s
       d.scaleFactor = scaleFactor;
       d.sprite.scale.x = d.scaleFactor;
       d.sprite.scale.y = d.scaleFactor;

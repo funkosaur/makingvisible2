@@ -42,7 +42,6 @@ if (Modernizr.webgl && !utils.isMobile()) {
   init();
 }
 
-
 function init() {
   tags = Tags();
   canvas = Canvas();
@@ -51,48 +50,58 @@ function init() {
   ping = utils.ping();
 
   var baseUrl = utils.getDataBaseUrl();
+
   var makeUrl = utils.makeUrl;
 
-  console.log(baseUrl);
+  d3.json(
+    baseUrl.config || "http://localhost:3000/data/long-hospital/config.json",
+    function (config) {
+      config.baseUrl = baseUrl;
+      utils.initConfig(config);
+      console.log("config.loader.timeline");
+      console.log(config.loader.timeline);
+      Loader(makeUrl(baseUrl.path, config.loader.timeline)).finished(function (
+        timeline
+      ) {
+        Loader(makeUrl(baseUrl.path, config.loader.items)).finished(function (
+          data
+        ) {
+          console.log(data);
+          console.log("timeline");
+          console.log(timeline);
+          console.log("timeline end");
 
-  d3.json(baseUrl.config || "data/config.json", function (config) {
-    config.baseUrl = baseUrl;
-    utils.initConfig(config);
+          utils.clean(data, config.delimiter);
 
-    Loader(makeUrl(baseUrl.path, config.loader.timeline)).finished(function (timeline) {
-      Loader(makeUrl(baseUrl.path, config.loader.items)).finished(function (data) {
-        console.log(data);
+          tags.init(data, config);
+          search.init();
+          canvas.init(data, timeline, config);
 
-        utils.clean(data, config.delimiter);
+          if (config.loader.layouts) {
+            initLayouts(config);
+          } else {
+            canvas.setMode("time");
+          }
 
-        tags.init(data, config);
-        search.init();
-        canvas.init(data, timeline, config);
-
-        if (config.loader.layouts) {
-          initLayouts(config);
-        } else {
-          canvas.setMode("time");
-        }
-
-        LoaderSprites()
-          .progress(function (textures) {
-            Object.keys(textures).forEach(function (id) {
-              data
-                .filter(function (d) {
-                  return d.id === id;
-                })
-                .forEach(function (d) {
-                  d.sprite.texture = textures[id];
-                });
-            });
-            canvas.wakeup();
-          })
-          //.finished() recalculate sizes
-          .load(makeUrl(baseUrl.path, config.loader.textures.medium.url));
+          LoaderSprites()
+            .progress(function (textures) {
+              Object.keys(textures).forEach(function (id) {
+                data
+                  .filter(function (d) {
+                    return d.id === id;
+                  })
+                  .forEach(function (d) {
+                    d.sprite.texture = textures[id];
+                  });
+              });
+              canvas.wakeup();
+            })
+            //.finished() recalculate sizes
+            .load(makeUrl(baseUrl.path, config.loader.textures.medium.url));
+        });
       });
-    });
-  });
+    }
+  );
 
   d3.select(window)
     .on("resize", function () {

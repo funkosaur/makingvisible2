@@ -1,0 +1,1982 @@
+{
+  "meta": {
+    "type": "sharpsheet",
+    "version": "1",
+    "app": "https://github.com/cpietsch/sharpsheet"
+  },
+  "spritesheets": [
+    {
+      "image": "sprite-1024-0.jpg",
+      "sprites": [
+        {
+          "name": "00f9a23bf24da245e48da83eb1f1d12a",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "w": 87,
+            "h": 128
+          }
+        },
+        {
+          "name": "0188b31b5a8c8052b56fecb7aaf28312",
+          "position": {
+            "x": 90,
+            "y": 1
+          },
+          "dimension": {
+            "w": 110,
+            "h": 128
+          }
+        },
+        {
+          "name": "0190408e9815272483f3f6f186a21d65",
+          "position": {
+            "x": 202,
+            "y": 1
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "0481abb28033fdf15a245fd49bb9719f",
+          "position": {
+            "x": 306,
+            "y": 1
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "04acc06f0da2b3c4cb4273ccf3b1a398",
+          "position": {
+            "x": 407,
+            "y": 1
+          },
+          "dimension": {
+            "w": 105,
+            "h": 128
+          }
+        },
+        {
+          "name": "04b8b1149609f3016ee0fc7e9cd722ae",
+          "position": {
+            "x": 514,
+            "y": 1
+          },
+          "dimension": {
+            "w": 81,
+            "h": 128
+          }
+        },
+        {
+          "name": "073480f58b6bfe261497ec39bb32f45a",
+          "position": {
+            "x": 597,
+            "y": 1
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "073f12ed615a2ba3bb1c907c7a1aba27",
+          "position": {
+            "x": 721,
+            "y": 1
+          },
+          "dimension": {
+            "w": 105,
+            "h": 128
+          }
+        },
+        {
+          "name": "0750fb1e7c48f3c4f03a94d3a2720952",
+          "position": {
+            "x": 828,
+            "y": 1
+          },
+          "dimension": {
+            "w": 100,
+            "h": 128
+          }
+        },
+        {
+          "name": "0913c9fe9eddd30478ef06bc7178da84",
+          "position": {
+            "x": 1,
+            "y": 131
+          },
+          "dimension": {
+            "w": 97,
+            "h": 128
+          }
+        },
+        {
+          "name": "0a31a3a2db774c200ce3e1eaa391af78",
+          "position": {
+            "x": 100,
+            "y": 131
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "0e3111da0a43f0b33fd81e389280f4fb",
+          "position": {
+            "x": 930,
+            "y": 1
+          },
+          "dimension": {
+            "w": 92,
+            "h": 128
+          }
+        },
+        {
+          "name": "0f2e4601e9a3610128f1dba20818124b",
+          "position": {
+            "x": 224,
+            "y": 131
+          },
+          "dimension": {
+            "w": 94,
+            "h": 128
+          }
+        },
+        {
+          "name": "10b2f71975989305593f93c8987536b7",
+          "position": {
+            "x": 320,
+            "y": 131
+          },
+          "dimension": {
+            "w": 97,
+            "h": 128
+          }
+        },
+        {
+          "name": "123801839d673186e1c66a96058a3c93",
+          "position": {
+            "x": 419,
+            "y": 131
+          },
+          "dimension": {
+            "w": 121,
+            "h": 128
+          }
+        },
+        {
+          "name": "1332acfd8a51c13ee72b2782694aa368",
+          "position": {
+            "x": 542,
+            "y": 131
+          },
+          "dimension": {
+            "w": 97,
+            "h": 128
+          }
+        },
+        {
+          "name": "15f6d3a66368bb35e19ce74e972e8dae",
+          "position": {
+            "x": 641,
+            "y": 131
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "162d89a3ff77c8888aedff64bc6f15ff",
+          "position": {
+            "x": 745,
+            "y": 131
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "1766a5afb66526952d11a30597d01b9c",
+          "position": {
+            "x": 849,
+            "y": 131
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "180c5d02ab3345f0d9d1833928977191",
+          "position": {
+            "x": 1,
+            "y": 261
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "1acb5410a116cf2cdbe6b978ab5511d5",
+          "position": {
+            "x": 102,
+            "y": 261
+          },
+          "dimension": {
+            "w": 126,
+            "h": 128
+          }
+        },
+        {
+          "name": "2136b9a029db63791ee12aa57f1668bc",
+          "position": {
+            "x": 230,
+            "y": 261
+          },
+          "dimension": {
+            "w": 93,
+            "h": 128
+          }
+        },
+        {
+          "name": "23986f1d60b71055ef5070cbca7755f1",
+          "position": {
+            "x": 325,
+            "y": 261
+          },
+          "dimension": {
+            "w": 104,
+            "h": 128
+          }
+        },
+        {
+          "name": "24b6478c91b40351a6d55af582ead794",
+          "position": {
+            "x": 431,
+            "y": 261
+          },
+          "dimension": {
+            "w": 114,
+            "h": 128
+          }
+        },
+        {
+          "name": "265e1940220b0a9420ddf70cec72692c",
+          "position": {
+            "x": 547,
+            "y": 261
+          },
+          "dimension": {
+            "w": 81,
+            "h": 128
+          }
+        },
+        {
+          "name": "26726abf1509baef0595f682f40a8601",
+          "position": {
+            "x": 630,
+            "y": 261
+          },
+          "dimension": {
+            "w": 100,
+            "h": 128
+          }
+        },
+        {
+          "name": "2708fd4b559cf531c9291dbd5514f6de",
+          "position": {
+            "x": 732,
+            "y": 261
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "29d527fbfbc6e046c1a663f5c017f7a7",
+          "position": {
+            "x": 856,
+            "y": 261
+          },
+          "dimension": {
+            "w": 114,
+            "h": 128
+          }
+        },
+        {
+          "name": "2b598003554ab79cc7299cf7a9bc6897",
+          "position": {
+            "x": 1,
+            "y": 391
+          },
+          "dimension": {
+            "w": 103,
+            "h": 128
+          }
+        },
+        {
+          "name": "325bce079e558ed01a88358078ad030e",
+          "position": {
+            "x": 106,
+            "y": 391
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "32a0f5c8beb2e95a9b2156d849faa6d7",
+          "position": {
+            "x": 207,
+            "y": 391
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "35ec511f97e2d6e369c6e0c63084a461",
+          "position": {
+            "x": 308,
+            "y": 391
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "36e11419652c13cab8c156e8b2059464",
+          "position": {
+            "x": 432,
+            "y": 391
+          },
+          "dimension": {
+            "w": 89,
+            "h": 128
+          }
+        },
+        {
+          "name": "381452b3f5652207ebe36315798a5921",
+          "position": {
+            "x": 523,
+            "y": 391
+          },
+          "dimension": {
+            "w": 105,
+            "h": 128
+          }
+        },
+        {
+          "name": "384e6bde955c19d5acb518cb78f5f48d",
+          "position": {
+            "x": 630,
+            "y": 391
+          },
+          "dimension": {
+            "w": 108,
+            "h": 128
+          }
+        },
+        {
+          "name": "3ad13b69b51636f9118f47f9eb214c82",
+          "position": {
+            "x": 740,
+            "y": 391
+          },
+          "dimension": {
+            "w": 113,
+            "h": 128
+          }
+        },
+        {
+          "name": "3c6d453c221a2f6a87b817bd6e926823",
+          "position": {
+            "x": 855,
+            "y": 391
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "3e0816a4972490371a5be7e8e8f63119",
+          "position": {
+            "x": 1,
+            "y": 521
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "3e17f138a0429b585805bbb254895b26",
+          "position": {
+            "x": 104,
+            "y": 521
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "3e9776b36e1074f71cf1b96294683b8f",
+          "position": {
+            "x": 205,
+            "y": 521
+          },
+          "dimension": {
+            "w": 78,
+            "h": 128
+          }
+        },
+        {
+          "name": "3f87ad1e9dcedf4e4f5022135b74470e",
+          "position": {
+            "x": 285,
+            "y": 521
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "41182f16a24aca5a62b5f94147a36ef1",
+          "position": {
+            "x": 389,
+            "y": 521
+          },
+          "dimension": {
+            "w": 104,
+            "h": 128
+          }
+        },
+        {
+          "name": "457b981714133969e104805b72a1e04c",
+          "position": {
+            "x": 495,
+            "y": 521
+          },
+          "dimension": {
+            "w": 93,
+            "h": 128
+          }
+        },
+        {
+          "name": "48fb794bec4678bcafbe126d69fd4409",
+          "position": {
+            "x": 590,
+            "y": 521
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "4b1d49986ed2980aa99183f0fc52d506",
+          "position": {
+            "x": 687,
+            "y": 521
+          },
+          "dimension": {
+            "w": 83,
+            "h": 128
+          }
+        },
+        {
+          "name": "4e0244df76d05b60363977c8727811dc",
+          "position": {
+            "x": 772,
+            "y": 521
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "4e6012a5d672d15f830a0ae783cb4a78",
+          "position": {
+            "x": 875,
+            "y": 521
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "5320b3604f11c5f76bc7fde1f79197f5",
+          "position": {
+            "x": 1,
+            "y": 651
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "553ee3ef934fff5bc0ecf5aec117dcdc",
+          "position": {
+            "x": 102,
+            "y": 651
+          },
+          "dimension": {
+            "w": 94,
+            "h": 128
+          }
+        },
+        {
+          "name": "55c215027b879ff093b527a037dde5f2",
+          "position": {
+            "x": 198,
+            "y": 651
+          },
+          "dimension": {
+            "w": 88,
+            "h": 128
+          }
+        },
+        {
+          "name": "56cb8ed3a11723d414a1fb8678a2049a",
+          "position": {
+            "x": 288,
+            "y": 651
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "57aa5970c6a06b4e5c38f388910f0b4d",
+          "position": {
+            "x": 392,
+            "y": 651
+          },
+          "dimension": {
+            "w": 103,
+            "h": 128
+          }
+        },
+        {
+          "name": "584f828dd8257e081e3871fefda7b48d",
+          "position": {
+            "x": 497,
+            "y": 651
+          },
+          "dimension": {
+            "w": 90,
+            "h": 128
+          }
+        },
+        {
+          "name": "58c2cf389665142659e71acdf2834f4a",
+          "position": {
+            "x": 589,
+            "y": 651
+          },
+          "dimension": {
+            "w": 88,
+            "h": 128
+          }
+        },
+        {
+          "name": "593a17671cbf1f661b5457655d1b554a",
+          "position": {
+            "x": 679,
+            "y": 651
+          },
+          "dimension": {
+            "w": 91,
+            "h": 128
+          }
+        },
+        {
+          "name": "5bd12602d65711681a556950142344b0",
+          "position": {
+            "x": 772,
+            "y": 651
+          },
+          "dimension": {
+            "w": 71,
+            "h": 128
+          }
+        },
+        {
+          "name": "5d2d37b93d1fc503d9c9f9abf5178d6f",
+          "position": {
+            "x": 845,
+            "y": 651
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "653a3db6b3af133fd9690cd795916830",
+          "position": {
+            "x": 1,
+            "y": 781
+          },
+          "dimension": {
+            "w": 108,
+            "h": 128
+          }
+        },
+        {
+          "name": "653fe189fb331b31c7f9e78fb193a6b3",
+          "position": {
+            "x": 111,
+            "y": 781
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "65829b9bd82661275ff6088a726f1082",
+          "position": {
+            "x": 214,
+            "y": 781
+          },
+          "dimension": {
+            "w": 79,
+            "h": 128
+          }
+        },
+        {
+          "name": "66c462d61e7f1f4d3033d95b9b7312c2",
+          "position": {
+            "x": 295,
+            "y": 781
+          },
+          "dimension": {
+            "w": 94,
+            "h": 128
+          }
+        },
+        {
+          "name": "69cc39f75f3b9bf3fe3912fdb238351b",
+          "position": {
+            "x": 391,
+            "y": 781
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "6eb561ec692babad2033f4358ee0840c",
+          "position": {
+            "x": 515,
+            "y": 781
+          },
+          "dimension": {
+            "w": 124,
+            "h": 128
+          }
+        },
+        {
+          "name": "6f28966bf6e0b9ac27486a7ebeb1b7cf",
+          "position": {
+            "x": 641,
+            "y": 781
+          },
+          "dimension": {
+            "w": 110,
+            "h": 128
+          }
+        },
+        {
+          "name": "70a24a740b12d0e99bc9bba782e561b5",
+          "position": {
+            "x": 753,
+            "y": 781
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "7450c2901c31bba458ab4f096879c6e6",
+          "position": {
+            "x": 854,
+            "y": 781
+          },
+          "dimension": {
+            "w": 100,
+            "h": 128
+          }
+        },
+        {
+          "name": "972ef2190a394168997d484ae121034e",
+          "position": {
+            "x": 946,
+            "y": 651
+          },
+          "dimension": {
+            "w": 77,
+            "h": 128
+          }
+        },
+        {
+          "name": "97807d8664492b9f332888b55c88cc11",
+          "position": {
+            "x": 956,
+            "y": 391
+          },
+          "dimension": {
+            "w": 57,
+            "h": 128
+          }
+        },
+        {
+          "name": "b9e51c0d9b1226b547cb2b064472a4bd",
+          "position": {
+            "x": 973,
+            "y": 131
+          },
+          "dimension": {
+            "w": 28,
+            "h": 128
+          }
+        },
+        {
+          "name": "ea7a0751c54dc5b24ba89c5442af8e3c",
+          "position": {
+            "x": 972,
+            "y": 261
+          },
+          "dimension": {
+            "w": 46,
+            "h": 128
+          }
+        },
+        {
+          "name": "5ecb6708ff35f0a46ed302b23bbcc4ef",
+          "position": {
+            "x": 1,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 111
+          }
+        },
+        {
+          "name": "ce1db0468289db43daff0f1586fea0d2",
+          "position": {
+            "x": 131,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 110
+          }
+        },
+        {
+          "name": "32323566f3f8003df5abb2ba6fe47de5",
+          "position": {
+            "x": 261,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 102
+          }
+        },
+        {
+          "name": "9d2a767482101439655a04e0f2e22b6c",
+          "position": {
+            "x": 391,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 102
+          }
+        },
+        {
+          "name": "a30e9e40f062b58d77c209ca52d6044f",
+          "position": {
+            "x": 521,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 102
+          }
+        },
+        {
+          "name": "73b0a43005e400964350cd0a63f1f53b",
+          "position": {
+            "x": 651,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 101
+          }
+        },
+        {
+          "name": "3bb17db6d409706a5c313a196a7b091a",
+          "position": {
+            "x": 781,
+            "y": 911
+          },
+          "dimension": {
+            "w": 128,
+            "h": 100
+          }
+        }
+      ]
+    },
+    {
+      "image": "sprite-1024-1.jpg",
+      "sprites": [
+        {
+          "name": "7560e428d9b9aead69c8f8d6ea081010",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "784f62e563de085b568b60281c32d861",
+          "position": {
+            "x": 98,
+            "y": 1
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "78c2e4ad81b3c2139750f68992ab2349",
+          "position": {
+            "x": 201,
+            "y": 1
+          },
+          "dimension": {
+            "w": 90,
+            "h": 128
+          }
+        },
+        {
+          "name": "7e2c3381096b63dc8b6cd13b328c7078",
+          "position": {
+            "x": 293,
+            "y": 1
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "7e306b567c19a2fee63a5a88d361a316",
+          "position": {
+            "x": 390,
+            "y": 1
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "7feed71ab98a3cc80c5de4179272145c",
+          "position": {
+            "x": 487,
+            "y": 1
+          },
+          "dimension": {
+            "w": 98,
+            "h": 128
+          }
+        },
+        {
+          "name": "80d89cc2ff6fb551ef72e5bc28e13840",
+          "position": {
+            "x": 587,
+            "y": 1
+          },
+          "dimension": {
+            "w": 110,
+            "h": 128
+          }
+        },
+        {
+          "name": "87f7d9fdb3e478ddb382e2273f89e80c",
+          "position": {
+            "x": 699,
+            "y": 1
+          },
+          "dimension": {
+            "w": 115,
+            "h": 128
+          }
+        },
+        {
+          "name": "884809513e9047234f54f74221101949",
+          "position": {
+            "x": 816,
+            "y": 1
+          },
+          "dimension": {
+            "w": 83,
+            "h": 128
+          }
+        },
+        {
+          "name": "89c3877e3f8e0113460b7cf7979173e3",
+          "position": {
+            "x": 901,
+            "y": 1
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "89ca9f65821ca283c0c678d24521737d",
+          "position": {
+            "x": 1,
+            "y": 131
+          },
+          "dimension": {
+            "w": 106,
+            "h": 128
+          }
+        },
+        {
+          "name": "8dad9519c7441f536617c4a66be2ad70",
+          "position": {
+            "x": 109,
+            "y": 131
+          },
+          "dimension": {
+            "w": 118,
+            "h": 128
+          }
+        },
+        {
+          "name": "91879b2369ce2426417bd563a20de6e8",
+          "position": {
+            "x": 229,
+            "y": 131
+          },
+          "dimension": {
+            "w": 90,
+            "h": 128
+          }
+        },
+        {
+          "name": "91d786522fe65812bef3f6a68b0ff069",
+          "position": {
+            "x": 321,
+            "y": 131
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "9214ed0f003fd4919ea791671e54d0fe",
+          "position": {
+            "x": 445,
+            "y": 131
+          },
+          "dimension": {
+            "w": 94,
+            "h": 128
+          }
+        },
+        {
+          "name": "93db8db12404f5c2f79d39f3e4610cc2",
+          "position": {
+            "x": 541,
+            "y": 131
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "9807478263f8a067abad10650838b179",
+          "position": {
+            "x": 642,
+            "y": 131
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "985adcc5c1417d551068185c61a4b5a4",
+          "position": {
+            "x": 739,
+            "y": 131
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "998da391bc563a0d91cab9bd52b3a1f3",
+          "position": {
+            "x": 842,
+            "y": 131
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "9e3b8780e7a495ec2d25cf304d6df820",
+          "position": {
+            "x": 1,
+            "y": 261
+          },
+          "dimension": {
+            "w": 87,
+            "h": 128
+          }
+        },
+        {
+          "name": "9efae5de51e7fe6eddb4cf7925750de3",
+          "position": {
+            "x": 90,
+            "y": 261
+          },
+          "dimension": {
+            "w": 113,
+            "h": 128
+          }
+        },
+        {
+          "name": "a1fb9763eece18e2814da1800c4db709",
+          "position": {
+            "x": 205,
+            "y": 261
+          },
+          "dimension": {
+            "w": 86,
+            "h": 128
+          }
+        },
+        {
+          "name": "a5dca8eaa51be700fb9fdf7a552fbc0a",
+          "position": {
+            "x": 293,
+            "y": 261
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "ac07302efe392cd8eba90c6fbff54b2a",
+          "position": {
+            "x": 394,
+            "y": 261
+          },
+          "dimension": {
+            "w": 93,
+            "h": 128
+          }
+        },
+        {
+          "name": "ad3250ccaa54dfadeea10d8bb6014b13",
+          "position": {
+            "x": 489,
+            "y": 261
+          },
+          "dimension": {
+            "w": 90,
+            "h": 128
+          }
+        },
+        {
+          "name": "b3afa5c11149d00715cba722f61354bc",
+          "position": {
+            "x": 581,
+            "y": 261
+          },
+          "dimension": {
+            "w": 90,
+            "h": 128
+          }
+        },
+        {
+          "name": "b4729ba7a496d427f2662d4ae8a9f98d",
+          "position": {
+            "x": 673,
+            "y": 261
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "b62a664bd93833c6140e24e675e7cda2",
+          "position": {
+            "x": 776,
+            "y": 261
+          },
+          "dimension": {
+            "w": 110,
+            "h": 128
+          }
+        },
+        {
+          "name": "b70556274658bb72f237c0553ce51ee9",
+          "position": {
+            "x": 888,
+            "y": 261
+          },
+          "dimension": {
+            "w": 96,
+            "h": 128
+          }
+        },
+        {
+          "name": "b73f6789ba33ceb42edb77deb2a6ed52",
+          "position": {
+            "x": 1,
+            "y": 391
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "b81ae263722ac84804fce2baedab51e0",
+          "position": {
+            "x": 102,
+            "y": 391
+          },
+          "dimension": {
+            "w": 88,
+            "h": 128
+          }
+        },
+        {
+          "name": "ba1a38e8ec574c56061d9d2b77cede80",
+          "position": {
+            "x": 192,
+            "y": 391
+          },
+          "dimension": {
+            "w": 97,
+            "h": 128
+          }
+        },
+        {
+          "name": "bb32ca0b99ebea17f63513a82c66b9bf",
+          "position": {
+            "x": 291,
+            "y": 391
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "bb495725a56c94c850dc49ddfae2c8f7",
+          "position": {
+            "x": 395,
+            "y": 391
+          },
+          "dimension": {
+            "w": 102,
+            "h": 128
+          }
+        },
+        {
+          "name": "bb637aa3b819b9a08a05bb272919e2a5",
+          "position": {
+            "x": 499,
+            "y": 391
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "bcb54bc699c913924d6dc3e37bb96a8b",
+          "position": {
+            "x": 623,
+            "y": 391
+          },
+          "dimension": {
+            "w": 86,
+            "h": 128
+          }
+        },
+        {
+          "name": "bcc25afc85937ae25f8678353d5476ee",
+          "position": {
+            "x": 711,
+            "y": 391
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "bfa46f8452cf3fca4a2d8b2fc64247da",
+          "position": {
+            "x": 814,
+            "y": 391
+          },
+          "dimension": {
+            "w": 100,
+            "h": 128
+          }
+        },
+        {
+          "name": "c43cad5448fe4267917324ea217651fa",
+          "position": {
+            "x": 1,
+            "y": 521
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "cb728d272ecc5633b4bdc7523f18b47e",
+          "position": {
+            "x": 916,
+            "y": 391
+          },
+          "dimension": {
+            "w": 94,
+            "h": 128
+          }
+        },
+        {
+          "name": "ce743a3523ce196c03054d3f9ab100e2",
+          "position": {
+            "x": 125,
+            "y": 521
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "d24f6a36fc9a716e42951af5568e5e02",
+          "position": {
+            "x": 249,
+            "y": 521
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "d2911986b069d583697582da0478541c",
+          "position": {
+            "x": 939,
+            "y": 131
+          },
+          "dimension": {
+            "w": 81,
+            "h": 128
+          }
+        },
+        {
+          "name": "d2edfef69047c3fbb31c115803678c55",
+          "position": {
+            "x": 352,
+            "y": 521
+          },
+          "dimension": {
+            "w": 77,
+            "h": 128
+          }
+        },
+        {
+          "name": "d3c39ce34da479808485435a16668e0e",
+          "position": {
+            "x": 431,
+            "y": 521
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "d541645868e6875cac462f284b75dafe",
+          "position": {
+            "x": 532,
+            "y": 521
+          },
+          "dimension": {
+            "w": 81,
+            "h": 128
+          }
+        },
+        {
+          "name": "dc7a9515786c76adc8e5922f352a8d86",
+          "position": {
+            "x": 615,
+            "y": 521
+          },
+          "dimension": {
+            "w": 97,
+            "h": 128
+          }
+        },
+        {
+          "name": "e0fc147ecce4dc904b5ab4a46cc59a37",
+          "position": {
+            "x": 714,
+            "y": 521
+          },
+          "dimension": {
+            "w": 98,
+            "h": 128
+          }
+        },
+        {
+          "name": "e1b1da38b42f9acfc0e5b6298e451b46",
+          "position": {
+            "x": 814,
+            "y": 521
+          },
+          "dimension": {
+            "w": 96,
+            "h": 128
+          }
+        },
+        {
+          "name": "e46ef733d7e30880b786ffb7dd86b1dd",
+          "position": {
+            "x": 1,
+            "y": 651
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "ebf237e122dd36e4cf2e83aa4ae23e51",
+          "position": {
+            "x": 125,
+            "y": 651
+          },
+          "dimension": {
+            "w": 122,
+            "h": 128
+          }
+        },
+        {
+          "name": "ecd45f951a3e59aebf187d5a501131af",
+          "position": {
+            "x": 912,
+            "y": 521
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "ef3ac25997ab187aae49bd209ea3c28a",
+          "position": {
+            "x": 249,
+            "y": 651
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "f4fab53f91f4b6b1c7b44d92f27930d6",
+          "position": {
+            "x": 350,
+            "y": 651
+          },
+          "dimension": {
+            "w": 99,
+            "h": 128
+          }
+        },
+        {
+          "name": "f5107a60990eca91652892a872818666",
+          "position": {
+            "x": 451,
+            "y": 651
+          },
+          "dimension": {
+            "w": 101,
+            "h": 128
+          }
+        },
+        {
+          "name": "f7430e95c6c56cfa052412374ad21af0",
+          "position": {
+            "x": 554,
+            "y": 651
+          },
+          "dimension": {
+            "w": 95,
+            "h": 128
+          }
+        },
+        {
+          "name": "f940a99654481e303c1135ca9daf21e2",
+          "position": {
+            "x": 651,
+            "y": 651
+          },
+          "dimension": {
+            "w": 91,
+            "h": 128
+          }
+        },
+        {
+          "name": "fc08043cc6fb9d158ad7bdb84627145f",
+          "position": {
+            "x": 744,
+            "y": 651
+          },
+          "dimension": {
+            "w": 92,
+            "h": 128
+          }
+        },
+        {
+          "name": "fe21b6eee621064119c56363552c5dc5",
+          "position": {
+            "x": 838,
+            "y": 651
+          },
+          "dimension": {
+            "w": 77,
+            "h": 128
+          }
+        },
+        {
+          "name": "4b0cb1554df0091291727814a79ca13a",
+          "position": {
+            "x": 1,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "689b00c809c061492ec539c4769fa713",
+          "position": {
+            "x": 131,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "7794646061c3abb9ba3447f456a74598",
+          "position": {
+            "x": 261,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "9443439e8223089df1f2126eed75e4a4",
+          "position": {
+            "x": 391,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "ac25b4eb0ce85539128a7ef561b7247b",
+          "position": {
+            "x": 521,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "f5641953f2a5c620a0b2c6d2f88ae28a",
+          "position": {
+            "x": 651,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 127
+          }
+        },
+        {
+          "name": "13f18b94e11823c60e0dcb0af84e6524",
+          "position": {
+            "x": 781,
+            "y": 781
+          },
+          "dimension": {
+            "w": 128,
+            "h": 126
+          }
+        },
+        {
+          "name": "88d5a357c33dde8dffb7fcb3be1fff63",
+          "position": {
+            "x": 1,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 100
+          }
+        },
+        {
+          "name": "ea2169f77b5c945f205040987c1705d8",
+          "position": {
+            "x": 131,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 98
+          }
+        },
+        {
+          "name": "77d956ae03827815815b42ff15c9d3dc",
+          "position": {
+            "x": 261,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 96
+          }
+        },
+        {
+          "name": "f8ce0174220ec87222520b10b9b7072f",
+          "position": {
+            "x": 391,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 96
+          }
+        },
+        {
+          "name": "69766202e8de1237cdcec996dc3cf7b4",
+          "position": {
+            "x": 521,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 95
+          }
+        },
+        {
+          "name": "4015dbb1178e786cabf9dd19c4a2cc9a",
+          "position": {
+            "x": 651,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 93
+          }
+        },
+        {
+          "name": "4e2c8b9308771a726c616e5fb54dc899",
+          "position": {
+            "x": 781,
+            "y": 910
+          },
+          "dimension": {
+            "w": 128,
+            "h": 93
+          }
+        }
+      ]
+    },
+    {
+      "image": "sprite-1024-2.jpg",
+      "sprites": [
+        {
+          "name": "f556721b5aab87d84e18cc01aae47adf",
+          "position": {
+            "x": 1,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 126
+          }
+        },
+        {
+          "name": "0b03082a7037dd8d5d069a1088015171",
+          "position": {
+            "x": 131,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 125
+          }
+        },
+        {
+          "name": "7d295eef9a14d66dabc44fc705ed5a0d",
+          "position": {
+            "x": 261,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 125
+          }
+        },
+        {
+          "name": "f152b41f9b6061672ef93c423109c2c6",
+          "position": {
+            "x": 391,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 124
+          }
+        },
+        {
+          "name": "13079d91f91ed013aad06fdb30512976",
+          "position": {
+            "x": 521,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 121
+          }
+        },
+        {
+          "name": "3cb44de9bc4434c3b6669a76ed804b22",
+          "position": {
+            "x": 651,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 121
+          }
+        },
+        {
+          "name": "59e8670f5a683a4c9912710ccc77ed01",
+          "position": {
+            "x": 781,
+            "y": 1
+          },
+          "dimension": {
+            "w": 128,
+            "h": 93
+          }
+        },
+        {
+          "name": "43f0461e29fed8687494494cd4db3c1c",
+          "position": {
+            "x": 1,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 91
+          }
+        },
+        {
+          "name": "76644520864afd672b0b362a715f1e60",
+          "position": {
+            "x": 131,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 90
+          }
+        },
+        {
+          "name": "38dd4f01b29bf7ef1abd3a0a3f579696",
+          "position": {
+            "x": 261,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 87
+          }
+        },
+        {
+          "name": "dce7c4d58378f5009ad5b5c3385df26d",
+          "position": {
+            "x": 391,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 85
+          }
+        },
+        {
+          "name": "4c81a857ed38eaf7bcd6587d889787d4",
+          "position": {
+            "x": 521,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 78
+          }
+        },
+        {
+          "name": "15b0e49e3ebb9fbe0432fdc8b0142d6b",
+          "position": {
+            "x": 651,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 73
+          }
+        },
+        {
+          "name": "afe3aa61a8436109864a4bb3ecd07123",
+          "position": {
+            "x": 781,
+            "y": 129
+          },
+          "dimension": {
+            "w": 128,
+            "h": 73
+          }
+        },
+        {
+          "name": "f4e552a9c5b81fac563ae9568931d99a",
+          "position": {
+            "x": 1,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 73
+          }
+        },
+        {
+          "name": "7b1beddb12e50d7211cd7cf1fbc2c997",
+          "position": {
+            "x": 131,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 71
+          }
+        },
+        {
+          "name": "5f71a431fbf48a214374b3f8d5e2bdfc",
+          "position": {
+            "x": 261,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 66
+          }
+        },
+        {
+          "name": "bc8ef2c2c2e4a54323cc0fc8012fbd3f",
+          "position": {
+            "x": 391,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 66
+          }
+        },
+        {
+          "name": "805e3665d929e4ffe426905c42cd8b23",
+          "position": {
+            "x": 521,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 63
+          }
+        },
+        {
+          "name": "8c699fc5b3ae02d3195d62a732868df3",
+          "position": {
+            "x": 651,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 62
+          }
+        },
+        {
+          "name": "e12f0a17192268fd6c10ff8ff4725b7c",
+          "position": {
+            "x": 781,
+            "y": 222
+          },
+          "dimension": {
+            "w": 128,
+            "h": 59
+          }
+        },
+        {
+          "name": "0b9c384944bf2a0e53045b7854978dd3",
+          "position": {
+            "x": 1,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 58
+          }
+        },
+        {
+          "name": "e7b4537bfbc626e37a64b8673d503f20",
+          "position": {
+            "x": 131,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 56
+          }
+        },
+        {
+          "name": "ed33c6b3a27889bda221a38d2b209f4a",
+          "position": {
+            "x": 261,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 55
+          }
+        },
+        {
+          "name": "6d2c5ad27f0b3aaf52090bbe39731d66",
+          "position": {
+            "x": 391,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 42
+          }
+        },
+        {
+          "name": "6b897fd14994ea5c6b65e579961753fd",
+          "position": {
+            "x": 521,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 41
+          }
+        },
+        {
+          "name": "0e4ff4ccf3bfea5d6882e9b720e4c977",
+          "position": {
+            "x": 651,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 33
+          }
+        },
+        {
+          "name": "87c78030169c9e8450fbc3544c5a9d87",
+          "position": {
+            "x": 781,
+            "y": 297
+          },
+          "dimension": {
+            "w": 128,
+            "h": 33
+          }
+        }
+      ]
+    }
+  ]
+}
