@@ -10,6 +10,11 @@
     "layouts": [
       {
         "title": "time"
+      },
+      {
+        "title": "similar",
+        "scale": 1,
+        "url": "/data/long-hospital/umap.csv"
       }
     ],
     "textures": {
